@@ -1,4 +1,3 @@
-## Hi there 👋
 <h1> Opa, me chamo Caio </h1>
 <p>Eu vou estar colocando aqui a minha trajetória!</p>
 <!--
