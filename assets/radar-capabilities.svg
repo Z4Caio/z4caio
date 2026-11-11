@@ -106,7 +106,7 @@
     <text x="32" y="72" class="stat-val">5</text>
 
     <text x="332" y="36" class="stat-label">Commits no último ano</text>
-    <text x="332" y="72" class="stat-val">24</text>
+    <text x="332" y="72" class="stat-val">25</text>
 
     <text x="632" y="36" class="stat-label">Pull requests</text>
     <text x="632" y="72" class="stat-val">2</text>
