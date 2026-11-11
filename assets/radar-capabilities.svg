@@ -36,13 +36,13 @@
     </g>
 
     <!-- Real Calculated Radar Polygon -->
-    <polygon points="292.0,90.0 387.7,195.0 292.0,265.4 260.6,195.0" fill="url(#radarFill)" stroke="#00f5d4" stroke-width="2.2"/>
+    <polygon points="292.0,90.0 387.7,195.0 292.0,265.4 245.0,195.0" fill="url(#radarFill)" stroke="#00f5d4" stroke-width="2.2"/>
 
     <!-- Vertices -->
     <circle cx="292.0" cy="90.0" r="4.5" fill="#00f5d4"/>
     <circle cx="387.7" cy="195.0" r="4.5" fill="#00f5d4"/>
     <circle cx="292.0" cy="265.4" r="4.5" fill="#00f5d4"/>
-    <circle cx="260.6" cy="195.0" r="4.5" fill="#00f5d4"/>
+    <circle cx="245.0" cy="195.0" r="4.5" fill="#00f5d4"/>
 
     <!-- Axis Labels -->
     <text x="292" y="75" text-anchor="middle" class="axis-label">HTML</text>
@@ -59,36 +59,36 @@
     <text x="32" y="42" class="panel-title">Principais linguagens</text>
 
     <g transform="translate(32, 62)">
-      <rect x="0.0" y="0" width="219.5" height="10" rx="3" fill="#ff6b4a"/><rect x="222.5" y="0" width="182.1" height="10" rx="3" fill="#a277ff"/><rect x="407.6" y="0" width="98.7" height="10" rx="3" fill="#00f5d4"/><rect x="509.3" y="0" width="10.7" height="10" rx="3" fill="#38bdf8"/>
+      <rect x="0.0" y="0" width="209.7" height="10" rx="3" fill="#ff6b4a"/><rect x="212.7" y="0" width="174.0" height="10" rx="3" fill="#a277ff"/><rect x="389.7" y="0" width="94.3" height="10" rx="3" fill="#00f5d4"/><rect x="487.0" y="0" width="33.0" height="10" rx="3" fill="#38bdf8"/>
     </g>
     
     <g transform="translate(32, 104)">
       <circle cx="7" cy="6" r="5" fill="#ff6b4a"/>
       <text x="22" y="11" class="lang-name">HTML</text>
-      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#ff6b4a">42%</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#ff6b4a">40%</text>
       <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
-      <rect x="0" y="22" width="219.5" height="7" rx="3.5" fill="#ff6b4a"/>
+      <rect x="0" y="22" width="209.7" height="7" rx="3.5" fill="#ff6b4a"/>
     </g>
     <g transform="translate(32, 162)">
       <circle cx="7" cy="6" r="5" fill="#a277ff"/>
       <text x="22" y="11" class="lang-name">CSS</text>
-      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#a277ff">35%</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#a277ff">33%</text>
       <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
-      <rect x="0" y="22" width="182.1" height="7" rx="3.5" fill="#a277ff"/>
+      <rect x="0" y="22" width="174.0" height="7" rx="3.5" fill="#a277ff"/>
     </g>
     <g transform="translate(32, 220)">
       <circle cx="7" cy="6" r="5" fill="#00f5d4"/>
       <text x="22" y="11" class="lang-name">JavaScript</text>
-      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#00f5d4">19%</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#00f5d4">18%</text>
       <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
-      <rect x="0" y="22" width="98.7" height="7" rx="3.5" fill="#00f5d4"/>
+      <rect x="0" y="22" width="94.3" height="7" rx="3.5" fill="#00f5d4"/>
     </g>
     <g transform="translate(32, 278)">
       <circle cx="7" cy="6" r="5" fill="#38bdf8"/>
       <text x="22" y="11" class="lang-name">Python</text>
-      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#38bdf8">3.8%</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#38bdf8">8.1%</text>
       <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
-      <rect x="0" y="22" width="19.7" height="7" rx="3.5" fill="#38bdf8"/>
+      <rect x="0" y="22" width="42.0" height="7" rx="3.5" fill="#38bdf8"/>
     </g>
 
     <text x="32" y="340" class="caption">atualizado automaticamente via GitHub API em 2026-11-11</text>
@@ -106,7 +106,7 @@
     <text x="32" y="72" class="stat-val">5</text>
 
     <text x="332" y="36" class="stat-label">Commits no último ano</text>
-    <text x="332" y="72" class="stat-val">25</text>
+    <text x="332" y="72" class="stat-val">27</text>
 
     <text x="632" y="36" class="stat-label">Pull requests</text>
     <text x="632" y="72" class="stat-val">2</text>
