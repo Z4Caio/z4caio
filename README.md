@@ -197,17 +197,14 @@
     <a href="https://github.com/Z4Caio" target="_blank">
       <img src="https://img.shields.io/badge/GITHUB-Z4Caio-00f5d4?style=for-the-badge&logo=github&logoColor=white&labelColor=090d16" alt="GitHub" />
     </a>
-    <a href="mailto:caiovieirapessanha@gmail.com">
+    <a href="mailto:caiopessanhavieira@gmail.com">
       <img src="https://img.shields.io/badge/GMAIL-CONTATO-f43f5e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=090d16" alt="Gmail" />
     </a>
-    <a href="https://www.linkedin.com/" target="_blank">
+    <a href="https://www.linkedin.com/in/caio-pessanha-942b2822b/" target="_blank">
       <img src="https://img.shields.io/badge/LINKEDIN-CONECTAR-00bbf9?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=090d16" alt="LinkedIn" />
     </a>
-    <a href="https://www.instagram.com/" target="_blank">
+    <a href="https://www.instagram.com/caiopessanha.dev/" target="_blank">
       <img src="https://img.shields.io/badge/INSTAGRAM-SEGUIR-a277ff?style=for-the-badge&logo=instagram&logoColor=white&labelColor=090d16" alt="Instagram" />
-    </a>
-    <a href="https://discord.com/" target="_blank">
-      <img src="https://img.shields.io/badge/DISCORD-CHAT-6366f1?style=for-the-badge&logo=discord&logoColor=white&labelColor=090d16" alt="Discord" />
     </a>
   </p>
 
