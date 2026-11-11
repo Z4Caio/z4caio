@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Deep Abyssal Dark Background -->
+    <linearGradient id="bgAbyss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080e"/>
+      <stop offset="50%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#05060a"/>
+    </linearGradient>
+
+    <!-- Collectioneur-style Ambient Glows (Bioluminescent Aqua + Neon Purple) -->
+    <radialGradient id="aquaOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#00bbf9" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#06080e" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a277ff" stop-opacity="0.30"/>
+      <stop offset="55%" stop-color="#7209b7" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#06080e" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#06080e" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#00f5d4"/>
+    </linearGradient>
+
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161f30" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0c111d" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00f5d4" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#a277ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a277ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .hero-hi { font: 500 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; fill: #00f5d4; letter-spacing: 4px; text-transform: uppercase; }
+    .hero-main { font: 800 54px 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; fill: #ffffff; letter-spacing: -1.2px; }
+    .hero-sub { font: 600 14px 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; fill: #94a3b8; letter-spacing: 5px; text-transform: uppercase; }
+    .pill-text { font: 500 13px 'Segoe UI', -apple-system, monospace; fill: #cbd5e1; }
+    .hud-text { font: 500 11px 'Consolas', monospace; fill: #64748b; letter-spacing: 1px; }
+
+    @keyframes breathe {
+      0%, 100% { opacity: 0.75; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.06); }
+    }
+    @keyframes floatUp {
+      0%, 100% { transform: translateY(0px); opacity: 0.4; }
+      50% { transform: translateY(-14px); opacity: 0.9; }
+    }
+    @keyframes swimRight {
+      0%, 100% { transform: translate(0px, 0px); }
+      50% { transform: translate(18px, -6px); }
+    }
+    @keyframes swimLeft {
+      0%, 100% { transform: translate(0px, 0px); }
+      50% { transform: translate(-18px, 6px); }
+    }
+
+    .orb-anim { animation: breathe 6s ease-in-out infinite; transform-origin: center; }
+    .bubble-1 { animation: floatUp 4s ease-in-out infinite; }
+    .bubble-2 { animation: floatUp 5.5s ease-in-out infinite 1s; }
+    .bubble-3 { animation: floatUp 4.8s ease-in-out infinite 2s; }
+    .fish-1 { animation: swimRight 7s ease-in-out infinite; }
+    .fish-2 { animation: swimLeft 8s ease-in-out infinite; }
+  </style>
+
+  <!-- Main Card Frame -->
+  <rect width="1200" height="400" rx="26" fill="url(#bgAbyss)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Ambient Shader Glows (Collectioneur Aesthetic) -->
+  <circle cx="300" cy="240" r="310" fill="url(#aquaOrb)" class="orb-anim"/>
+  <circle cx="900" cy="180" r="320" fill="url(#purpleOrb)" class="orb-anim"/>
+  <circle cx="600" cy="200" r="240" fill="url(#centerGlow)"/>
+
+  <!-- Concentric Minimal Radar Rings (Collectioneur Style) -->
+  <g stroke="#ffffff" stroke-opacity="0.04" fill="none" stroke-width="1">
+    <circle cx="600" cy="195" r="110"/>
+    <circle cx="600" cy="195" r="185"/>
+    <circle cx="600" cy="195" r="265"/>
+    <circle cx="600" cy="195" r="350"/>
+  </g>
+
+  <!-- Subtle Bioluminescent Aquascape Waves at Bottom -->
+  <path d="M 0 340 Q 300 310 600 340 T 1200 330" fill="none" stroke="url(#waveGrad)" stroke-width="1.5"/>
+  <path d="M 0 360 Q 350 385 650 355 T 1200 365" fill="none" stroke="url(#waveGrad)" stroke-width="1" opacity="0.6"/>
+
+  <!-- Subtle Bioluminescent Bubbles / Particles -->
+  <g fill="#00f5d4">
+    <circle cx="180" cy="290" r="2.5" class="bubble-1"/>
+    <circle cx="210" cy="220" r="1.5" class="bubble-2"/>
+    <circle cx="155" cy="160" r="2" class="bubble-3"/>
+    <circle cx="1020" cy="280" r="2.5" class="bubble-2" fill="#a277ff"/>
+    <circle cx="980" cy="190" r="1.8" class="bubble-1" fill="#00f5d4"/>
+    <circle cx="1045" cy="140" r="2" class="bubble-3" fill="#a277ff"/>
+  </g>
+
+  <!-- Minimalist Silhouetted Neon Fish (Aquascaping Nod) -->
+  <g class="fish-1" transform="translate(190, 115)" opacity="0.55">
+    <path d="M 0 0 C 12 -7, 24 -7, 34 0 C 24 7, 12 7, 0 0 Z" fill="#00f5d4"/>
+    <polygon points="0,0 -9,-6 -7,0 -9,6" fill="#00bbf9"/>
+  </g>
+  <g class="fish-2" transform="translate(985, 265)" opacity="0.45">
+    <path d="M 0 0 C -10 -5, -20 -5, -28 0 C -20 5, -10 5, 0 0 Z" fill="#a277ff"/>
+    <polygon points="0,0 8,-5 6,0 8,5" fill="#c084fc"/>
+  </g>
+
+  <!-- Top HUD Corner Accents -->
+  <text x="36" y="42" class="hud-text">Z4CAIO // SYSTEM.PROFILE.v3</text>
+  <text x="1030" y="42" class="hud-text" fill="#00f5d4">● ONLINE &amp; BUILDING</text>
+
+  <!-- Center Hero Typography -->
+  <text x="600" y="122" text-anchor="middle" class="hero-hi">⚡ BEM-VINDO AO MEU ECOSSISTEMA DIGITAL ⚡</text>
+
+  <text x="600" y="182" text-anchor="middle" class="hero-main">
+    Olá, me chamo <tspan fill="url(#textGrad)">Caio</tspan>
+  </text>
+  <text x="600" y="220" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="22" font-weight="500" fill="#cbd5e1">
+    e esse é meu <tspan fill="#a277ff" font-weight="700">GitHub</tspan>.
+  </text>
+
+  <text x="600" y="264" text-anchor="middle" class="hero-sub">
+    FRONT-END  ·  UI/UX DESIGN  ·  DISCIPLINE  ·  AQUASCAPING
+  </text>
+
+  <!-- Glassmorphic Pills (Collectioneur Style) -->
+  <g transform="translate(230, 294)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="160" height="36" rx="18" fill="url(#pillBg)" stroke="#334155" stroke-width="1"/>
+    <text x="80" y="23" text-anchor="middle" class="pill-text" fill="#00f5d4">◈ ui/ux &amp; web</text>
+
+    <!-- Pill 2 -->
+    <rect x="176" y="0" width="180" height="36" rx="18" fill="url(#pillBg)" stroke="#334155" stroke-width="1"/>
+    <text x="266" y="23" text-anchor="middle" class="pill-text" fill="#c4b5fd">🏋️‍♂️ gym discipline</text>
+
+    <!-- Pill 3 -->
+    <rect x="372" y="0" width="184" height="36" rx="18" fill="url(#pillBg)" stroke="#334155" stroke-width="1"/>
+    <text x="464" y="23" text-anchor="middle" class="pill-text" fill="#38bdf8">🐠 aquascaping</text>
+
+    <!-- Pill 4 -->
+    <rect x="572" y="0" width="168" height="36" rx="18" fill="url(#pillBg)" stroke="#334155" stroke-width="1"/>
+    <text x="656" y="23" text-anchor="middle" class="pill-text" fill="#f8fafc">⚡ clean code</text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="100%" height="28">
+  <defs>
+    <linearGradient id="neonDivider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06080d" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00f5d4" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#a277ff" stop-opacity="0.95"/>
+      <stop offset="80%" stop-color="#00f5d4" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#06080d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="40" y1="14" x2="1160" y2="14" stroke="url(#neonDivider)" stroke-width="1.5"/>
+  <circle cx="600" cy="14" r="4" fill="#00f5d4"/>
+  <circle cx="578" cy="14" r="2" fill="#a277ff"/>
+  <circle cx="622" cy="14" r="2" fill="#a277ff"/>
+</svg>

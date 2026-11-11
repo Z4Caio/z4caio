@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 475" width="100%" height="100%">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e17"/>
+      <stop offset="100%" stop-color="#06080d"/>
+    </linearGradient>
+    <linearGradient id="radarFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#a277ff" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .panel-title { font: 700 16px 'Segoe UI', -apple-system, sans-serif; fill: #00f5d4; letter-spacing: 0.5px; }
+    .axis-label { font: 600 12.5px 'Segoe UI', -apple-system, sans-serif; fill: #e2e8f0; }
+    .caption { font: 400 11.5px 'Segoe UI', -apple-system, sans-serif; fill: #94a3b8; }
+    .lang-name { font: 600 13.5px 'Segoe UI', -apple-system, sans-serif; fill: #f8fafc; }
+    .lang-pct { font: 700 13.5px 'Consolas', monospace; }
+    .stat-label { font: 500 12.5px 'Segoe UI', -apple-system, sans-serif; fill: #94a3b8; }
+    .stat-val { font: 700 26px 'Segoe UI', -apple-system, sans-serif; fill: #00f5d4; }
+  </style>
+
+  <!-- LEFT PANEL: RADAR DE LINGUAGENS -->
+  <g transform="translate(0, 0)">
+    <rect width="585" height="355" rx="18" fill="url(#panelBg)" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="32" y="42" class="panel-title">Radar de linguagens</text>
+
+    <!-- Diamond Radar Grid (Center: 292, 195) -->
+    <g stroke="#334155" stroke-width="1" fill="none">
+      <polygon points="292,90 397,195 292,300 187,195" stroke-opacity="0.75"/>
+      <polygon points="292,116 371,195 292,274 213,195" stroke-opacity="0.55"/>
+      <polygon points="292,142 345,195 292,248 239,195" stroke-opacity="0.40"/>
+      <polygon points="292,168 318,195 292,222 266,195" stroke-opacity="0.25"/>
+      <line x1="292" y1="90" x2="292" y2="300" stroke-opacity="0.6"/>
+      <line x1="187" y1="195" x2="397" y2="195" stroke-opacity="0.6"/>
+    </g>
+
+    <!-- Real Calculated Radar Polygon -->
+    <polygon points="292.0,90.0 387.7,195.0 292.0,265.4 260.6,195.0" fill="url(#radarFill)" stroke="#00f5d4" stroke-width="2.2"/>
+
+    <!-- Vertices -->
+    <circle cx="292.0" cy="90.0" r="4.5" fill="#00f5d4"/>
+    <circle cx="387.7" cy="195.0" r="4.5" fill="#00f5d4"/>
+    <circle cx="292.0" cy="265.4" r="4.5" fill="#00f5d4"/>
+    <circle cx="260.6" cy="195.0" r="4.5" fill="#00f5d4"/>
+
+    <!-- Axis Labels -->
+    <text x="292" y="75" text-anchor="middle" class="axis-label">HTML</text>
+    <text x="410" y="199" text-anchor="start" class="axis-label">CSS</text>
+    <text x="292" y="322" text-anchor="middle" class="axis-label">JavaScript</text>
+    <text x="174" y="199" text-anchor="end" class="axis-label">Python</text>
+
+    <text x="32" y="340" class="caption">Proporção real de código por linguagem, escala raiz quadrada</text>
+  </g>
+
+  <!-- RIGHT PANEL: PRINCIPAIS LINGUAGENS -->
+  <g transform="translate(615, 0)">
+    <rect width="585" height="355" rx="18" fill="url(#panelBg)" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="32" y="42" class="panel-title">Principais linguagens</text>
+
+    <g transform="translate(32, 62)">
+      <rect x="0.0" y="0" width="219.5" height="10" rx="3" fill="#ff6b4a"/><rect x="222.5" y="0" width="182.1" height="10" rx="3" fill="#a277ff"/><rect x="407.6" y="0" width="98.7" height="10" rx="3" fill="#00f5d4"/><rect x="509.3" y="0" width="10.7" height="10" rx="3" fill="#38bdf8"/>
+    </g>
+    
+    <g transform="translate(32, 104)">
+      <circle cx="7" cy="6" r="5" fill="#ff6b4a"/>
+      <text x="22" y="11" class="lang-name">HTML</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#ff6b4a">42%</text>
+      <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
+      <rect x="0" y="22" width="219.5" height="7" rx="3.5" fill="#ff6b4a"/>
+    </g>
+    <g transform="translate(32, 162)">
+      <circle cx="7" cy="6" r="5" fill="#a277ff"/>
+      <text x="22" y="11" class="lang-name">CSS</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#a277ff">35%</text>
+      <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
+      <rect x="0" y="22" width="182.1" height="7" rx="3.5" fill="#a277ff"/>
+    </g>
+    <g transform="translate(32, 220)">
+      <circle cx="7" cy="6" r="5" fill="#00f5d4"/>
+      <text x="22" y="11" class="lang-name">JavaScript</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#00f5d4">19%</text>
+      <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
+      <rect x="0" y="22" width="98.7" height="7" rx="3.5" fill="#00f5d4"/>
+    </g>
+    <g transform="translate(32, 278)">
+      <circle cx="7" cy="6" r="5" fill="#38bdf8"/>
+      <text x="22" y="11" class="lang-name">Python</text>
+      <text x="520" y="11" text-anchor="end" class="lang-pct" fill="#38bdf8">3.8%</text>
+      <rect x="0" y="22" width="520" height="7" rx="3.5" fill="#161f30"/>
+      <rect x="0" y="22" width="19.7" height="7" rx="3.5" fill="#38bdf8"/>
+    </g>
+
+    <text x="32" y="340" class="caption">atualizado automaticamente via GitHub API em 2026-11-11</text>
+  </g>
+
+  <!-- BOTTOM REAL METRICS BAR -->
+  <g transform="translate(0, 375)">
+    <rect width="1200" height="95" rx="18" fill="url(#panelBg)" stroke="#1e293b" stroke-width="1.5"/>
+
+    <line x1="300" y1="18" x2="300" y2="77" stroke="#1e293b" stroke-width="1.5"/>
+    <line x1="600" y1="18" x2="600" y2="77" stroke="#1e293b" stroke-width="1.5"/>
+    <line x1="900" y1="18" x2="900" y2="77" stroke="#1e293b" stroke-width="1.5"/>
+
+    <text x="32" y="36" class="stat-label">Repositórios</text>
+    <text x="32" y="72" class="stat-val">5</text>
+
+    <text x="332" y="36" class="stat-label">Commits no último ano</text>
+    <text x="332" y="72" class="stat-val">24</text>
+
+    <text x="632" y="36" class="stat-label">Pull requests</text>
+    <text x="632" y="72" class="stat-val">2</text>
+
+    <text x="932" y="36" class="stat-label">Estrelas recebidas</text>
+    <text x="932" y="72" class="stat-val">1</text>
+  </g>
+</svg>

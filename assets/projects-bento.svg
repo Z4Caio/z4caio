@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="projBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d111c"/>
+      <stop offset="100%" stop-color="#070910"/>
+    </linearGradient>
+    <radialGradient id="glowAqua" cx="85%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#070910" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="85%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#a277ff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#070910" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="85%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#070910" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .proj-tag { font: 600 10.5px 'Consolas', monospace; letter-spacing: 1.2px; text-transform: uppercase; }
+    .proj-title { font: 700 20px 'Segoe UI', -apple-system, sans-serif; fill: #ffffff; }
+    .proj-desc { font: 400 13.5px 'Segoe UI', -apple-system, sans-serif; fill: #94a3b8; }
+    .tech-pill { font: 600 11.5px 'Consolas', monospace; }
+  </style>
+  
+  <g transform="translate(0, 5)">
+    <rect width="592" height="215" rx="20" fill="url(#projBg)" stroke="#164e63" stroke-width="1.5"/>
+    <rect width="592" height="215" rx="20" fill="url(#glowAqua)"/>
+
+    <rect x="26" y="22" width="175" height="24" rx="12" fill="#062830" stroke="#00f5d4" stroke-width="1"/>
+    <text x="113" y="38" text-anchor="middle" class="proj-tag" fill="#00f5d4">⭐ PROJETO EM DESTAQUE</text>
+
+    <rect x="495" y="22" width="70" height="24" rx="12" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="530" y="38" text-anchor="middle" class="proj-tag" fill="#fde047">★ 1</text>
+
+    <text x="26" y="78" class="proj-title">🌐 remae-prototipo</text>
+    <text x="26" y="106" class="proj-desc">Protótipo web interativo com interface moderna,</text>
+    <text x="26" y="126" class="proj-desc">estrutura semântica em HTML5, estilização CSS3</text>
+    <text x="26" y="146" class="proj-desc">e scripts dinâmicos em JavaScript.</text>
+
+    <g transform="translate(26, 168)">
+      
+      <rect x="0" y="0" width="84" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="42.0" y="17" text-anchor="middle" class="tech-pill" fill="#ff6b4a">HTML 59%</text>
+      <rect x="94" y="0" width="82" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="135.0" y="17" text-anchor="middle" class="tech-pill" fill="#a277ff">CSS 27%</text>
+      <rect x="186" y="0" width="132" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="252.0" y="17" text-anchor="middle" class="tech-pill" fill="#00f5d4">JavaScript 14%</text>
+    </g>
+  </g>
+  <g transform="translate(608, 5)">
+    <rect width="592" height="215" rx="20" fill="url(#projBg)" stroke="#164e63" stroke-width="1.5"/>
+    <rect width="592" height="215" rx="20" fill="url(#glowAqua)"/>
+
+    <rect x="26" y="22" width="175" height="24" rx="12" fill="#062830" stroke="#00f5d4" stroke-width="1"/>
+    <text x="113" y="38" text-anchor="middle" class="proj-tag" fill="#00f5d4">🎣 AQUA & FISHING UI</text>
+
+    <rect x="495" y="22" width="70" height="24" rx="12" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="530" y="38" text-anchor="middle" class="proj-tag" fill="#fde047">PUBLIC</text>
+
+    <text x="26" y="78" class="proj-title">🐠 FishingLanding</text>
+    <text x="26" y="106" class="proj-desc">Landing page temática sobre pesca e universo</text>
+    <text x="26" y="126" class="proj-desc">aquático para laboratório prático de CSS3,</text>
+    <text x="26" y="146" class="proj-desc">HTML5 e interações Front-End.</text>
+
+    <g transform="translate(26, 168)">
+      
+      <rect x="0" y="0" width="82" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="41.0" y="17" text-anchor="middle" class="tech-pill" fill="#a277ff">CSS 45%</text>
+      <rect x="92" y="0" width="84" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="134.0" y="17" text-anchor="middle" class="tech-pill" fill="#ff6b4a">HTML 39%</text>
+      <rect x="186" y="0" width="132" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="252.0" y="17" text-anchor="middle" class="tech-pill" fill="#00f5d4">JavaScript 17%</text>
+    </g>
+  </g>
+  <g transform="translate(0, 235)">
+    <rect width="592" height="215" rx="20" fill="url(#projBg)" stroke="#3b1d6e" stroke-width="1.5"/>
+    <rect width="592" height="215" rx="20" fill="url(#glowPurple)"/>
+
+    <rect x="26" y="22" width="175" height="24" rx="12" fill="#231242" stroke="#c4b5fd" stroke-width="1"/>
+    <text x="113" y="38" text-anchor="middle" class="proj-tag" fill="#c4b5fd">✨ UI/UX & LANDING PAGE</text>
+
+    <rect x="495" y="22" width="70" height="24" rx="12" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="530" y="38" text-anchor="middle" class="proj-tag" fill="#fde047">PUBLIC</text>
+
+    <text x="26" y="78" class="proj-title">💎 Clinica_de_Estetica</text>
+    <text x="26" y="106" class="proj-desc">Aplicação web para Clínica de Estética com foco</text>
+    <text x="26" y="126" class="proj-desc">em experiência do usuário (UI/UX), design</text>
+    <text x="26" y="146" class="proj-desc">elegante, responsividade e interatividade JS.</text>
+
+    <g transform="translate(26, 168)">
+      
+      <rect x="0" y="0" width="82" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="41.0" y="17" text-anchor="middle" class="tech-pill" fill="#a277ff">CSS 38%</text>
+      <rect x="92" y="0" width="132" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="158.0" y="17" text-anchor="middle" class="tech-pill" fill="#00f5d4">JavaScript 33%</text>
+      <rect x="234" y="0" width="84" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="276.0" y="17" text-anchor="middle" class="tech-pill" fill="#ff6b4a">HTML 29%</text>
+    </g>
+  </g>
+  <g transform="translate(608, 235)">
+    <rect width="592" height="215" rx="20" fill="url(#projBg)" stroke="#1e3a5f" stroke-width="1.5"/>
+    <rect width="592" height="215" rx="20" fill="url(#glowBlue)"/>
+
+    <rect x="26" y="22" width="175" height="24" rx="12" fill="#0f243c" stroke="#38bdf8" stroke-width="1"/>
+    <text x="113" y="38" text-anchor="middle" class="proj-tag" fill="#38bdf8">⚖️ WEB DESIGN & FRONT-END</text>
+
+    <rect x="495" y="22" width="70" height="24" rx="12" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="530" y="38" text-anchor="middle" class="proj-tag" fill="#fde047">PUBLIC</text>
+
+    <text x="26" y="78" class="proj-title">🏛️ Advocacia-LandingPage</text>
+    <text x="26" y="106" class="proj-desc">Landing page institucional moderna para</text>
+    <text x="26" y="126" class="proj-desc">escritório de advocacia, projetada com foco</text>
+    <text x="26" y="146" class="proj-desc">em conversão, tipografia e layout responsivo.</text>
+
+    <g transform="translate(26, 168)">
+      
+      <rect x="0" y="0" width="84" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="42.0" y="17" text-anchor="middle" class="tech-pill" fill="#ff6b4a">HTML 46%</text>
+      <rect x="94" y="0" width="82" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="135.0" y="17" text-anchor="middle" class="tech-pill" fill="#a277ff">CSS 40%</text>
+      <rect x="186" y="0" width="132" height="26" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="252.0" y="17" text-anchor="middle" class="tech-pill" fill="#00f5d4">JavaScript 13%</text>
+    </g>
+  </g>
+</svg>
