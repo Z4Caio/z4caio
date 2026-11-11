@@ -107,7 +107,7 @@
     <td width="50%" valign="top">
       <h3>🤱 Mãe Conecta</h3>
       <p>
-        Protótipo de uma rede para mães: vagas afirmativas, apoio e divulgação de pequenos negócios. Fork em HTML, CSS e JavaScript.
+      Fork de um projeto voltado à criação de uma rede de apoio para mães. Realizei melhorias na interface e na apresentação visual, buscando tornar a experiência mais agradável e intuitiva. Desenvolvido em HTML, CSS e JavaScript.
       </p>
       <p>
         <code>HTML5</code> &nbsp;•&nbsp; <code>CSS3</code> &nbsp;•&nbsp; <code>JavaScript</code>
