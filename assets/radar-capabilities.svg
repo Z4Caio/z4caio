@@ -91,7 +91,7 @@
       <rect x="0" y="22" width="42.0" height="7" rx="3.5" fill="#38bdf8"/>
     </g>
 
-    <text x="32" y="340" class="caption">atualizado automaticamente via GitHub API em 2026-11-13</text>
+    <text x="32" y="340" class="caption">atualizado automaticamente via GitHub API em 2026-11-14</text>
   </g>
 
   <!-- BOTTOM REAL METRICS BAR -->
@@ -106,7 +106,7 @@
     <text x="32" y="72" class="stat-val">5</text>
 
     <text x="332" y="36" class="stat-label">Commits no último ano</text>
-    <text x="332" y="72" class="stat-val">28</text>
+    <text x="332" y="72" class="stat-val">40</text>
 
     <text x="632" y="36" class="stat-label">Pull requests</text>
     <text x="632" y="72" class="stat-val">2</text>
